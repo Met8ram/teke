@@ -1,0 +1,1074 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="canonical" href="index.htm">
+
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <meta name="theme-color" content="#dddddd">
+
+    <title>Destiny Matrix Reading and Calculator - Soul Matrix</title>
+    <!-- OpenGraph SEO meta tags -->
+    <meta content="Find out your soul purpose in this life | Destiny Matrix | Numerology" name="description">
+    <meta content="Soul Matrix" property="og:title">
+    <meta content="website" property="og:type">
+
+    <!-- Google Font -->
+    <link href="css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="npm/bootstrap%405.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="css%20%281%29/custom.css?v1">
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="gtag/js?id=G-JZSBM95Z9T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JZSBM95Z9T');
+    </script>
+
+</head>
+
+<body class="dark">
+    <div class="site-header d-flex flex-column align-items-center justify-content-between">
+        <div class="hero">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-7">
+                <img src="images/logo-matrix.png" alt="logo" width="100">
+                <h1 class="mb-4">
+                  Soul Matrix</h1>
+                <p class="small mb-2">The date of your birth is not a coincidence.<br>You were born at a certain date to match a <span class="highlight">vibration of your soul</span> in this life.</p>
+                <p class="small">
+                  This method helps to find your soul's purpose and how to use its energies in the best way. Just by knowing this information, you might initiate a stronger connection with your soul, and live a happy life, like it was intended.
+                </p>
+              </div>
+          </div>
+        </div>
+
+    </div>
+
+    <section class="section section-border">
+      <div class="container">
+          <div class="row align-items-center justify-content-between">
+              <div class="col-12">
+                  
+                <div id="allrecords" class="overflow-hidden">
+                  <div id="rec423616470" class="r t-rec t-rec_pt_90">
+                    <div id="buttons">
+                      <h2 class="h3">Free Destiny Matrix Calculator</h2>
+                      <p class="lead mt-3 mx-auto text-center h5">Enter your name and date of birth to start</p>
+                      <div id="inp">
+                        <input type="date" id="birthday" name="birthday" class="but1 inbut1" required="">
+                        <input id="name_input" placeholder="name" class="but1 inbut1 ms-2" required="">
+                        <button onclick="calculate_matrix()" class="but1 but1--go ms-2"></button>
+                      </div>
+                    </div>
+                    <div id="whole">
+                      <div style="margin-left:5%;margin-top:10px">
+                        <button onclick="reversing()" class="back-btn">
+                          <div class="inbut">&#10229;</div>
+                        </button>
+                        <p class="h2">Personal calculation</p>
+                        <i id="username">&nbsp;</i>
+                        <br>
+                      </div>
+                      <svg viewbox="0 0 680 600" id="matrix">
+                        <g class="cls-1">
+                          <g id="Matrix Template" data-name="Matrix Template">
+                            <g>
+                              <image class="cls-2" width="348" height="347" transform="translate(160.06 122.9)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV0AAAFcCAYAAABr1G0SAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE9GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuYThkNDc1MzQ5LCAyMDIzLzAzLzIzLTEzOjA1OjQ1ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjQuNyAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjMtMDktMjFUMTU6NTg6NDkrMDM6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIzLTA5LTIxVDE2OjAyOjI4KzAzOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIzLTA5LTIxVDE2OjAyOjI4KzAzOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NmFlMDg4ZS1mNzU2LTQyNjQtYTJkMi1hYWM2OTU1ZGU2ZWEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTZhZTA4OGUtZjc1Ni00MjY0LWEyZDItYWFjNjk1NWRlNmVhIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NTZhZTA4OGUtZjc1Ni00MjY0LWEyZDItYWFjNjk1NWRlNmVhIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NmFlMDg4ZS1mNzU2LTQyNjQtYTJkMi1hYWM2OTU1ZGU2ZWEiIHN0RXZ0OndoZW49IjIwMjMtMDktMjFUMTU6NTg6NDkrMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNC43IChNYWNpbnRvc2gpIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqrJYCUAAAPfSURBVHja7dgxDsJADETRMUqTo8KB2KOmNBWI0CGttoje69xO8QtXdweANW4mABBdgEvaTtdRzyR3swBMM7L3433U6ad7VCcpGwFM09n701XvBYCFRBdAdAFEFwDRBRBdAEQXQHQBRBcA0QUQXQBEF0B0AUQXANEFEF0ARBdAdAEQXQDRBRBdAEQXQHQBEF0A0QUQXQBEF0B0ARBdANEFQHQBRBdAdAEQXQDRBUB0AUQXQHQBEF0A0QVAdAFEFwDRBRBdANEFQHQBRBcA0QUQXQDRBUB0AUQXANEFEF0A0QVAdAFEFwDRBRBdAEQXQHQBRBcA0QUQXQBEF0B0AUQXANEFEF0ARBdAdAEQXQDRBRBdAEQXQHQBEF0A0QUQXQBEF0B0ARBdANEFQHQBRBdAdAEQXQDRBUB0AUQXQHQBEF0A0QVAdAFEF0B0ARBdANEFQHQBRBcA0QUQXQDRBUB0AUQXANEFEF0A0QVAdAFEFwDRBRBdAEQXQHQBRBcA0QUQXQBEF0B0AUQXANEFEF0ARBdAdAEQXQDRBRBdAEQXQHQBEF0A0QUQXQBEF0B0ARBdANEFEF0ARBdAdAEQXQDRBUB0AUQXQHQBEF0A0QVAdAFEF0B0ARBdANEFQHQBRBcA0QUQXQDRBUB0AUQXANEFEF0A0QVAdAFEFwDRBRBdAEQXQHQBRBcA0QUQXQBEF0B0AUQXANEFEF0ARBdAdAFEFwDRBRBdAEQXQHQBEF0A0QUQXQBEF0B0ARBdANEFEF0ARBdAdAEQXQDRBUB0AUQXQHQBEF0A0QVAdAFEF0B0ARBdANEFQHQBRBcA0QUQXQDRBUB0AUQXANEFEF0A0QVAdAFEFwDRBRBdANE1AYDoAoguAKILILoAiC6A6AKILgCiCyC6AIgugOgCiC4AogsgugCILoDoAiC6AKILILoAiC6A6AIgugCiCyC6AIgugOgCILoAoguA6AKILoDoAiC6AKILgOgCiC6A6AIgugCiC4DoAoguAKILILoAoguA6AKILgCiCyC6AKILgOgCiC4AogsgugCiC4DoAoguAKILILoAiC6A6AKILgCiCyC6AIgugOgCiC4AogsgugCILoDoAiC6AKILILoAiC6A6AIgugCiCyC6AIgugOgCILoAoguA6AKILoDoAiC6AKILgOgCiC6A6AIgugCiC4DoAogugOgCILoAoguA6AKILgCiCyC6AKILgOgCiC4AogsgugCiC4DoAoguAKILILoAiC6A6AKILgCiCyC6AIgugOgCiC4AogsgugD8Z/u5R5I2C8A04/uobo0FWMV7AUB0Aa7pBfcfFd6fFbkjAAAAAElFTkSuQmCC"></image>
+                              <rect class="cls-3" x="163.63" y="126.14" width="340.16" height="340.16"></rect>
+                            </g>
+                            <g>
+                              <image class="cls-2" width="488" height="489" transform="translate(90.06 51.9)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAekAAAHqCAYAAAAgWrY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFhGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuYThkNDc1MzQ5LCAyMDIzLzAzLzIzLTEzOjA1OjQ1ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjQuNyAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjMtMDktMjFUMTY6Mjc6MjIrMDM6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIzLTA5LTIxVDE2OjI5OjIxKzAzOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIzLTA5LTIxVDE2OjI5OjIxKzAzOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyOTM5ZDY4MS03YjZlLTQ5ZjItOWMwYS00NzQ4MjI3ZWE5MTEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjkzOWQ2ODEtN2I2ZS00OWYyLTljMGEtNDc0ODIyN2VhOTExIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MjkzOWQ2ODEtN2I2ZS00OWYyLTljMGEtNDc0ODIyN2VhOTExIj4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+eG1wLmRpZDo1NmFlMDg4ZS1mNzU2LTQyNjQtYTJkMi1hYWM2OTU1ZGU2ZWE8L3JkZjpsaT4gPC9yZGY6QmFnPiA8L3Bob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOTM5ZDY4MS03YjZlLTQ5ZjItOWMwYS00NzQ4MjI3ZWE5MTEiIHN0RXZ0OndoZW49IjIwMjMtMDktMjFUMTY6Mjc6MjIrMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNC43IChNYWNpbnRvc2gpIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pkvdh/YAAAynSURBVHja7ds7blNBGIZhGyo6LmuAniYrgIKshAZWABWsACo2AgU7SJEFwBpISlfETBQhBDiJL+fyzczzSP/IkrtfmvPqWPJyvV4vAIA8S5EGAJEGAEQaOrNaPi3n0eLe+pNlgEgDOYF+X87jMidlfpZ5VWJ9YTEg0kBGoJ+VOS/z8fJeCzWINJAT6LPfd1qoQaSBvEAvhBpEGsgNtFCDSAPBgRZqEGkgONBCDSINBAdaqEGkgeBACzWINBAcaKEGkQaCAy3UINJAcKCFGkQaCA60UINIA8GBFmoQaSA40EINIg0EB1qoQaSB4EALNYg0EBxooQaRBoIDLdQg0kBwoIUaRBoEOjjQQg0iDQIdHGihBpEGga7hGSHUINIg0EINiDQItFCDSANtBFqoQaRBoIUaEGkQaKEGkQaBbvXZIdQg0iDQQg0iDQi0UINIg0ALNSDSINBCDSINAt1voIUaRBoEWqhBpAGBFmoQaRBooQZEGgRaqEGkQaARahBpEGihBpEGgRZooQaRBoEWakCkQaCFGkQaBBqhBpEGgRZqEGkQaIQaRBoEWqhBpEGgBVqoQaRBoBFqEGkQaKEGkQaBRqhBpEGghRpEGgQaoQaRBoFGqEGkEWiBFmoQaRBohBpEGgRaqEGkQaARahBpEGiEGpEGgUaoQaRBoBFqEGkEGqEGkQaBRqhBpEGgEWpEGgQaoQaRBoFGqEGkEWiEGkQaBBqhBpFGoEGoEWkQaIQaRBoEGqFGpEUagUaoQaRBoBFqEGkEGoQakQaBRqhBpBFoEGpEGgQaoQaRBoFGqEGkEWgQakQaBBqhBpFGoEGoEWkQaIQaRBqBBqEGkUagQagRaRBohBpEGoEGoUakQaARahBpBBqEGpEGgQahRqQRaBBqEGkEGoQakQaBRqhBpBFoEGpEGgQahBqRRqBBqEGkEWgQakQagQahBpFGoEGoEWkQaBBqRBqBBqFGpEGgQagRaQQahBpEGoEGoUakEWhAqBFpBBqEGpEGgQahRqQRaBBqEGkEGoQakUagAaFGpBFoEGpEGoEGhBqRRqBBqBFpkRZogQahRqQRaECoEWkEGoQakUagAaFGpBFoEGpEGoEGhBqRRqABoUakBVqgQagRaQQaEGpEGoEGoUakEWhAqBFpBBoQakRaoAGhRqQRaECoEWmBFmgQakQagQaEGpFGoAGhFmkEGhBqRBqBBoQakRZoQKgRaQQaEGpEWqAFGhBqkUagAaFGpBFoQKgRaYEGhBqRRqABoUakBRpAqEUagQaEGpEWaIEGhFqkEWhAqBFpBBoQakRaoAGEWqQRaECoEWmBBhBqkUagAaFGpAUaQKgRaYEGEGqRRqABoUakBRpAqEUagQaEGpEWaAChFmlbEGgAoRZpgQYQakRaoAGEWqQRaECoEWmBBhBqkUagAYRapAUaQKgRaYEGEGqRFmgAoUakBRpAqEUagQYQapEWaAChRqQFGkCoRVqgAYTaSkRaoAGEWqQFGgChFmmBBhBqkUagAYRapAUaQKiFWqQFGkCoRVqgARBqkRZoAKEWaYEGQKhFWqABhFqoRVqgAYRapAUaAKEWaYEGEGqRFmgAhFqkBRpAqDsNdV+RFmgAoRZpgQZAqEVaoAGEWqQFGgChFmmBBkCoG460QAMItUgLNABCLdICDUBHoW4r0gININQiLdAACLVICzQAnYa6/kgLNACNhrruSAs0AA2Hut5ICzQAjYe6zkgLNAAdhLq+SAs0AJ2Euq5ICzQAHYW6nkgLNACdhbqOSAs0AB2GOj/SAg1Ap6HOjrRAA9BxqHMjLdAAdB7qzEgLNABCHRhpgQZAqAMjfRXoF2WeCzQAvYc6J9ICDYBQB0ZaoAEQ6sBICzQAQh0YaYEGQKgDIy3QAAh1YKQFGgChDoy0QAMg1IGRFmgAhDow0gINgFAHRlqgARDqwEgLNABCHRhpgQZAqAMjLdAACHVgpAUaAKEOjLRAAyDUgZEWaACEOjDSAg2AUA8a6mEiLdAACPXgoT480gINAKOE+rBICzQAjBbq/SMt0AAwaqj3i7RAA8Dood490gINAJOEerdICzQATBbq7SMt0AAwaai3i7RAA8Dkob490gINALOE+uZICzQAzBbq6yMt0AAwa6g3R1qgAWD2UP8faYEGgIhQ/x1pgQaAmFD/ifRq+a6cxwINABmhvor0avmwfP5e5kmZH3YGAJOH+rxE+u1Nb9L3y7wus7YzAJjMozLfyjwuoT7bFOm75fxQ5kKoAWAyl79mfy3z+fo3aaEGgLkC/aUE+s2/X276C5ZQA8DMgd4caaEGgNkDfX2khRoAZg30zZEWagCYLdC3R1qoAWCWQG8XaaEGgMkDvX2khRoAJg30bpEWagCYLNC7R1qoAWCSQO8XaaEGgNEDvX+khRoARg30YZEWagAYLdCHR1qoAWCUQA8TaaEGgMEDPVykhRoAgR400MNGWqgBEOhBDRtpoQZAoIMjLdQACHRwpIUaAIEOjrRQAyDQwZEWagAEOjjSQg2AQAdHWqgBEOjgSAs1AAIdHGmhBkCggyMt1AAIdHCkhRoAgQ6OtFADINDBkRZqAAQ6ONJCDYBAB0daqAEQ6OBICzUAAh0caaEGQKCDIy3UAAh0cKSFGoDOA50daaEGoONA50daqAHoNNB1RFqoAegw0PVEWqgB6CzQdUVaqAHoKND1RVqoAegk0HVGWqgB6CDQ9UZaqAFoPNB1R1qoAWg40PVHWqgBaDTQbURaqAFoMNDtRFqoAQS6sUC3FWmhBhDoxrQVaaEGEGiRFmoABFqkhRqADgPddqSFGkCgRVqoARBokRZqAIHuJND9RFqoAQRapIUaAIEWaaEGEGiRFmoABFqkhRoAgRZpoQYQaJEWagAEWqSFGkCgRVqoARBokRZqAIEWaYQaQKBFWqgBBFqgRVqoAQRapIUaAIEWaaEGEGiRRqgBBFqkhRpAoBFpoQYQaJEWagCBFmiRFmoAgRZphBpAoEVaqAEEWqRtQagBBFqkhRpAoBFpoQYQaJFGqAGBFmiRFmoAgRZphBpAoEVaqAEEGpEWagCBFmmEGhBoRFqoAQRapBFqQKAFWqSFGkCgEWmhBhBokUaoAYFGpIUaQKBFGqEGBBqRFmoAgRZphBoQaOsQaYQaEGhEWqgBBFqkEWpAoBFpoQYQaJFGqAGBRqQRakCgEWmhBgQakUaoAYFGpIUaQKBFGqEGBBqRRqgBgRZphBoQaEQaoQYEGpEWakCgEWmEGhBoRBqhBgRapBFqQKARaYQaEGhEWqgBgUakEWpAoBFphBoEGpFGqAGBRqQRakCgRRqhBgQakUaoAYFGpBFqEGhEGqEGBBqRRqhBoBFphBoQaEQaoQYEGpFGqEGgEWmEGhBoRBqhBoFGpBFqQKARaYQaBBpEGqEGgUakEWpAoBFphBoEGpFGqAGBRqQRahBoRBqEGgQakUaoQaBBpBFqEGhEGqEGBBqRRqhBoBFpEGoQaEQaoQaBBpFGqEGgEWmEGgQaRBqhBoFGpEGoQaARaYQaBBqRBqEGgUakEWoQaBBphBoEGpEGoUagQaQRahBoRBqEGoEWaEQaoQaBBpFGqEGgEWkQagQaRBqhBoFGpEGoEWgQaYQaBBqRBqFGoAUakQahRqBBpBFqEGhEGoQagQaRRqhBoBFpEGoEGkQahBqBBpFGqBFogUakQagRaBBphBoEGpEGoUagQaRBqBFoEGmEGoEGkQahRqBBpBFqBFqgEWkQagQaRBqEGoFGpEGoEWgQaRBqBBpEGqFGoEGkQagRaBBpEGqBtg5EGoQagQaRBqFGoEGkEWoEGkQahBqBBpEGoRZoEGkQagQaRBqEWqBBpEGoEWgQaRBqBBpEGoRaoEGkQagRaBBpEGqBBpEGoUagQaRBqAUaEGkQaoEGkQahRqBBpEGoBRpEGoTaUgQaRBqEWqBBpAGhFmgQaRBqgQZEGoRaoEGkQahdJIEGkQahFmgQaUCoBRpEGoRaoAGRBqEWaBBpEOpuQi3QINIg1AINIg0ItUCDSINQCzQg0iDUAg0iDTQcaoEGkQahFmhApEGoBRpEGoS60lALNIg0CLVAAyINQi3QINJApaEWaBBpEOrAUAs0iDQQGGqBBpEGAkMt0CDSQGCoBRpEGggMtUCDSAOBoRZoEGkgMNQCDSINBIZaoEGkgcBQCzSINBAYaoEGkQYCQy3QINJAYKgFGkQaCAy1QINIA4GhFmgQaSAw1AINIg0EhlqgQaSBwFALNIg0EBjqBwINIg3khfpOmSOBBpEG8mL9spwnJdCnlgEiDQCINACINAAQ4hdVSvoseZfMvwAAAABJRU5ErkJggg=="></image>
+                              <rect class="cls-3" x="227.87" y="127.54" width="340.16" height="340.16" transform="translate(-158.13 367.16) rotate(-45)"></rect>
+                            </g>
+                            <circle class="cls-4" cx="333.7" cy="296.22" r="156.92"></circle>
+                            <polygon class="cls-4" points="333.7 12.76 534.14 95.78 617.17 296.22 534.14 496.66 333.7 579.68 133.26 496.66 50.24 296.22 133.26 95.78 333.7 12.76"></polygon>
+                            <line class="cls-4" x1="333.7" y1="12.76" x2="333.7" y2="579.68"></line>
+                            <line class="cls-4" x1="50.24" y1="296.22" x2="617.17" y2="296.22"></line>
+                            <g>
+                              <line class="cls-5" x1="436.22" y1="398.73" x2="232.02" y2="194.54"></line>
+                              <polygon class="cls-6" points="437.48 389.52 434.47 396.99 427.01 400 444.66 407.18 437.48 389.52"></polygon>
+                              <polygon class="cls-6" points="222.03 184.55 241.85 192.87 232.76 195.28 230.36 204.37 222.03 184.55"></polygon>
+                            </g>
+                            <g>
+                              <line class="cls-7" x1="434.67" y1="195.25" x2="232.02" y2="397.91"></line>
+                              <polygon class="cls-8" points="444.66 185.26 424.84 193.59 433.93 196 436.34 205.08 444.66 185.26"></polygon>
+                              <polygon class="cls-8" points="222.03 407.89 230.35 388.07 232.76 397.16 241.85 399.57 222.03 407.89"></polygon>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-10" cx="333.7" cy="41.1" r="28.35"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-13" cx="333.7" cy="89.62" r="18.43"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-15" cx="333.7" cy="124.12" r="14.17"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <line class="cls-17" x1="490.62" y1="296.22" x2="488.85" y2="297.99"></line>
+                              <line class="cls-18" x1="485.28" y1="301.56" x2="337.26" y2="449.58"></line>
+                              <line class="cls-17" x1="335.47" y1="451.37" x2="333.7" y2="453.14"></line>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-19" cx="397.95" cy="552.74" r="28.35" transform="translate(-338.53 441.89) rotate(-45)"></circle>
+                              </g>
+                            </g>
+                            <circle class="cls-21" cx="397.94" cy="504.22" r="18.43" transform="translate(-304.22 427.67) rotate(-45)"></circle>
+                            <g>
+                              <g>
+                                <circle class="cls-22" cx="397.59" cy="469.72" r="14.17" transform="translate(-279.93 417.32) rotate(-45)"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-10" cx="78.59" cy="296.22" r="28.35"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-13" cx="127.11" cy="295.86" r="18.43"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-15" cx="161.61" cy="296.22" r="14.17"></circle>
+                              </g>
+                            </g>
+                            <circle class="cls-21" cx="604.54" cy="297.62" r="18.43" transform="translate(-97.62 513.25) rotate(-45)"></circle>
+                            <g>
+                              <g>
+                                <circle class="cls-22" cx="570.04" cy="297.62" r="14.17" transform="translate(-107.73 488.85) rotate(-45)"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <circle class="cls-24" cx="217.55" cy="117.22" r="28.35" transform="translate(-83.41 186.77) rotate(-45)"></circle>
+                            </g>
+                            <circle class="cls-24" cx="514.1" cy="476.62" r="28.35"></circle>
+                            <g>
+                              <g>
+                                <circle class="cls-25" cx="397.94" cy="297.62" r="28.35" transform="translate(-158.13 367.16) rotate(-45)"></circle>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <circle class="cls-19" cx="653.13" cy="297.62" r="28.35" transform="translate(-83.39 547.61) rotate(-45)"></circle>
+                              </g>
+                            </g>
+                            <circle class="cls-21" cx="413.18" cy="375.69" r="14.17"></circle>
+                            <circle class="cls-21" cx="518.18" cy="367.04" r="14.17" transform="translate(-172.01 472.52) rotate(-45)"></circle>
+                            <circle class="cls-21" cx="467.37" cy="417.85" r="14.17" transform="translate(-222.82 451.47) rotate(-45)"></circle>
+                            <text x="-64.24" y="-1.4"></text>
+                            <g>
+                              <circle class="cls-24" cx="217.55" cy="478.01" r="28.35" transform="translate(-338.53 292.44) rotate(-45)"></circle>
+                            </g>
+                            <circle class="cls-24" cx="514.1" cy="115.82" r="28.35"></circle>
+                            <g>
+                              <g>
+                                <line class="cls-10" x1="26.31" y1="296.87" x2="37.65" y2="296.87"></line>
+                                <g>
+                                  <line class="cls-27" x1="29.84" y1="296.87" x2="37.65" y2="296.87"></line>
+                                  <polygon class="cls-10" points="26.31 296.87 31.29 298.9 30.11 296.87 31.29 294.83 26.31 296.87"></polygon>
+                                </g>
+                              </g>
+                              <text class="cls-28" transform="translate(0 299.53)">
+                                0
+                                <tspan class="cls-29" x="8.34" y="0">y.o.</tspan>
+                              </text>
+                              <circle class="cls-10" cx="44.46" cy="295.86" r="7.09"></circle>
+                              <text class="cls-30" transform="translate(40.13 300)">А</text>
+                            </g>
+                            <g>
+                              <line class="cls-10" x1="641.02" y1="296.87" x2="629.68" y2="296.87"></line>
+                              <g>
+                                <line class="cls-31" x1="637.49" y1="296.87" x2="629.68" y2="296.87"></line>
+                                <polygon class="cls-19" points="641.02 296.87 636.04 294.83 637.22 296.87 636.04 298.9 641.02 296.87"></polygon>
+                              </g>
+                            </g>
+                            <text class="cls-28" transform="translate(643.7 299.53)">
+                              40
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <circle class="cls-19" cx="622.87" cy="295.86" r="7.09"></circle>
+                            <text class="cls-30" transform="translate(618.54 300.24)">C</text>
+                            <g>
+                              <line class="cls-10" x1="109.77" y1="93.49" x2="121.11" y2="93.49"></line>
+                              <g>
+                                <line class="cls-32" x1="113.3" y1="93.49" x2="121.11" y2="93.49"></line>
+                                <polygon points="109.77 93.49 114.74 95.52 113.56 93.49 114.74 91.46 109.77 93.49"></polygon>
+                              </g>
+                            </g>
+                            <text class="cls-28" transform="translate(76.98 96.16)">
+                              10
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <circle cx="127.91" cy="92.49" r="7.09"></circle>
+                            <text class="cls-67" transform="translate(123.91 96.86)">F</text>
+                            <g>
+                              <line class="cls-10" x1="352.14" y1="8.09" x2="340.8" y2="8.09"></line>
+                              <g>
+                                <line class="cls-27" x1="348.61" y1="8.09" x2="340.8" y2="8.09"></line>
+                                <polygon class="cls-10" points="352.14 8.09 347.17 6.06 348.35 8.09 347.17 10.12 352.14 8.09"></polygon>
+                              </g>
+                            </g>
+                            <text class="cls-33" transform="translate(355.34 10.76)">
+                              <tspan class="cls-34" x="2.78" y="0">20</tspan>
+                              <tspan class="cls-35" x="16.68" y="0">y.o.</tspan>
+                            </text>
+                            <circle class="cls-10" cx="333.72" cy="7.09" r="7.09"></circle>
+                            <text class="cls-30" transform="translate(329.4 11.46)">B</text>
+                            <text x="-64.24" y="-1.4"></text>
+                            <text x="-64.24" y="-1.4"></text>
+                            <g>
+                              <circle cx="539.7" cy="92.36" r="7.09"></circle>
+                              <text class="cls-36" transform="translate(536.81 94.86)">А</text>
+                              <g>
+                                <line class="cls-10" x1="557.85" y1="93.36" x2="546.51" y2="93.36"></line>
+                                <g>
+                                  <line class="cls-32" x1="554.32" y1="93.36" x2="546.51" y2="93.36"></line>
+                                  <polygon points="557.85 93.36 552.87 91.33 554.05 93.36 552.87 95.39 557.85 93.36"></polygon>
+                                </g>
+                              </g>
+                              <text class="cls-28" transform="translate(560.34 94.86)">
+                                30
+                                <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                              </text>
+                              <circle cx="539.7" cy="92.36" r="7.09"></circle>
+                              <text class="cls-67" transform="translate(536 96.86)">G</text>
+                            </g>
+                            <g>
+                              <line class="cls-10" x1="557.85" y1="501.11" x2="546.51" y2="501.11"></line>
+                              <g>
+                                <line class="cls-32" x1="554.32" y1="501.11" x2="546.51" y2="501.11"></line>
+                                <polygon points="557.85 501.11 552.87 499.08 554.05 501.11 552.87 503.14 557.85 501.11"></polygon>
+                              </g>
+                            </g>
+                            <text class="cls-28" transform="translate(560.34 502.61)">
+                              50
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <circle cx="539.7" cy="500.11" r="7.09"></circle>
+                            <text class="cls-67" transform="translate(537.7 504.2)">I</text>
+                            <g>
+                              <line class="cls-10" x1="316.37" y1="586.3" x2="327.71" y2="586.3"></line>
+                              <g>
+                                <line class="cls-37" x1="319.9" y1="586.3" x2="327.71" y2="586.3"></line>
+                                <polygon class="cls-38" points="316.37 586.3 321.35 588.33 320.17 586.3 321.35 584.27 316.37 586.3"></polygon>
+                              </g>
+                            </g>
+                            <text class="cls-39" transform="translate(281.43 587.8)">
+                              <tspan class="cls-40">60</tspan>
+                              <tspan class="cls-41" x="13.9" y="0">y.o.</tspan>
+                              <tspan class="cls-42" x="30.45" y="0"></tspan>
+                            </text>
+                            <circle class="cls-38" cx="334.52" cy="585.3" r="7.09"></circle>
+                            <text class="cls-30" transform="translate(331.12 589.8)">D</text>
+                            <g>
+                              <line class="cls-10" x1="109.77" y1="501.49" x2="121.11" y2="501.49"></line>
+                              <g>
+                                <line class="cls-32" x1="113.3" y1="501.49" x2="121.11" y2="501.49"></line>
+                                <polygon points="109.77 501.49 114.74 503.52 113.56 501.49 114.74 499.46 109.77 501.49"></polygon>
+                              </g>
+                            </g>
+                            <text class="cls-28" transform="translate(76.98 504.16)">
+                              70
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <circle cx="127.91" cy="499.9" r="7.09"></circle>
+                            <text class="cls-67" transform="translate(124.16 503.86)">H</text>
+                            <circle class="cls-25" cx="333.7" cy="330.19" r="7.09"></circle>
+                            <text class="cls-43" transform="translate(329.43 334.5)">E</text>
+                            <text class="cls-44" transform="translate(242.77 200.48) rotate(45)">
+                              male generation line
+                            </text>
+                            <text class="cls-44" transform="translate(354.7 269.98) rotate(-45)">
+                              female generation line
+                            </text>
+                            <text x="-64.24" y="-1.4"></text>
+                            <g>
+                              <circle class="cls-22" cx="333.7" cy="449.4" r="5.67"></circle>
+                              <text class="cls-51" transform="translate(331 452.5)">J</text>
+                            </g>
+                            <circle class="cls-22" cx="486.84" cy="296.22" r="5.67"></circle>
+                            <text class="cls-51" transform="translate(483.7 299.5)">K</text>
+                            <text x="-64.24" y="-1.4"></text>
+                            <g>
+                              <circle cx="399.94" cy="362.3" r="5.67"></circle>
+                              <text class="cls-66" transform="translate(397.5 365.5)">L</text>
+                            </g>
+                            <g>
+                              <circle cx="389.89" cy="402.92" r="5.67"></circle>
+                              <text class="cls-66" transform="translate(385.9 406.4)">M</text>
+                            </g>
+                            <g>
+                              <circle cx="440.39" cy="352.09" r="5.67"></circle>
+                              <text class="cls-66" transform="translate(437.3 355.5)">N</text>
+                            </g>
+                            <text class="cls-52" transform="translate(416.2 341.81)">$</text>
+                            <path class="cls-53" d="M437.54,366.8c-6.26,0-7.12,6-7.28,6s-1.42-6-7.24-6c-7,0-8.91,5.9-8.51,9.45.71,6.14,15.74,18.54,15.74,18.54s15.06-12.4,15.77-18.54C446.43,372.7,444.55,366.8,437.54,366.8Z" transform="translate(-64.24 -1.4)"></path>
+                            <text x="-64.24" y="-1.4"></text>
+                          </g>
+                          <g>
+                            <g>
+                              <circle cx="397.9" cy="195.1" r="14.2" transform="translate(-85.6 337.1) rotate(-45)" style="fill:#04a704"></circle>
+                            </g>
+                          </g>
+                          <g>
+                            <g>
+                              <circle cx="295.5" cy="297.6" r="14.2" transform="translate(-188.1 294.7) rotate(-45)" style="fill:#04a704"></circle>
+                            </g>
+                          </g>
+                          <g id="points-basic-mode">
+                            <text class="cls-56 matrix-value-point" id="point-01" transform="translate(78 299.89)">A1</text>
+                            <text class="cls-54 matrix-value-point" id="point-02" transform="translate(333.5 44.83)">A2</text>
+                            <text class="cls-54 matrix-value-point" id="point-03" transform="translate(589.5 299.89)">A3</text>
+                            <text class="cls-54 matrix-value-point" id="point-04" transform="translate(333.5 555.39)">A4</text>
+                            <text class="cls-55 matrix-value-point" id="point-05" transform="translate(333.5 299.89)">A5</text>
+                            <text class="cls-55 matrix-value-point" id="point-06" transform="translate(153 118)">A6</text>
+                            <text class="cls-55 matrix-value-point" id="point-07" transform="translate(514 118)">A7</text>
+                            <text class="cls-55 matrix-value-point" id="point-08" transform="translate(514 479.72)">A8</text>
+                            <text class="cls-55 matrix-value-point" id="point-09" transform="translate(153 479.72)">A9</text>
+                            <text class="cls-57 matrix-value-point" id="point-10" transform="translate(333.69 470.62)">B1</text>
+                            <text class="cls-57 matrix-value-point" id="point-11" transform="translate(505.79 297.56)">B11</text>
+                            <text class="cls-58 matrix-value-point" id="point-12" transform="translate(413.17 377.27)">B2</text>
+                            <text class="cls-58 matrix-value-point" id="point-13" transform="translate(403.12 417.91)">B3</text>
+                            <text class="cls-58 matrix-value-point" id="point-14" transform="translate(453.93 366.89)">B4</text>
+                            <text class="cls-57 matrix-value-point" id="point-15" transform="translate(161.59 297.56)">B5</text>
+                            <text class="cls-57 matrix-value-point" id="point-16" transform="translate(333.69 126.71)">B6</text>
+                            <text class="cls-59 matrix-value-point" id="point-17" transform="translate(126.2 298)">B7</text>
+                            <text class="cls-59 matrix-value-point" id="point-18" transform="translate(333.5 92)">B8</text>
+                            <text class="cls-60 matrix-value-point" id="point-19" transform="translate(333.5 505.91)">B9</text>
+                            <text class="cls-60 matrix-value-point" id="point-20" transform="translate(540.5 298)">C1</text>
+                            <text class="cls-57 matrix-value-point" id="point-21" transform="translate(231.26 297.56)">C2</text>
+                            <text class="cls-57 matrix-value-point" id="point-22" transform="translate(333.7 195.1)">C3</text>
+                          </g>
+                          <g id="points-extended-mode" *ngif="extendedMode">
+                            <circle class="cls-21" cx="276.25" cy="175.93" r="14.17" transform="translate(-107.73 245.47) rotate(-45)"></circle>
+                            <text class="cls-58 matrix-value-point" id="point-23" transform="translate(212 175.83)">C4</text>
+                            <circle class="cls-21" cx="251.86" cy="151.53" r="18.43" transform="translate(-97.62 221.08) rotate(-45)"></circle>
+                            <text class="cls-60 matrix-value-point" id="point-24" transform="translate(187.5 152)">C5</text>
+                            <circle class="cls-21" cx="455.4" cy="174.53" r="14.17"></circle>
+                            <text class="cls-58 matrix-value-point" id="point-25" transform="translate(455.38 175.83)">C6</text>
+                            <circle class="cls-21" cx="479.79" cy="150.13" r="18.43"></circle>
+                            <text class="cls-60 matrix-value-point" id="point-26" transform="translate(480 152)">C7</text>
+                            <circle class="cls-21" cx="455.4" cy="417.91" r="14.17"></circle>
+                            <text class="cls-58 matrix-value-point" id="point-27" transform="translate(455.39 420.05)">C8</text>
+                            <circle class="cls-21" cx="479.79" cy="442.31" r="18.43"></circle>
+                            <text class="cls-60 matrix-value-point" id="point-28" transform="translate(480 444.5)">C9</text>
+                            <circle class="cls-21" cx="276.25" cy="419.31" r="14.17" transform="translate(-279.83 316.76) rotate(-45)"></circle>
+                            <text class="cls-58 matrix-value-point" id="point-29" transform="translate(212 419.06)">D1</text>
+                            <circle class="cls-21" cx="251.86" cy="443.7" r="18.43" transform="translate(-304.22 306.65) rotate(-45)"></circle>
+                            <text class="cls-60 matrix-value-point" id="point-30" transform="translate(187.4 444.5)">D2</text>
+                            <text class="cls-33" id="point-31" transform="translate(50.9 254.94)">D3</text>
+                            <text class="cls-33" id="point-32" transform="translate(58.5 236.19)">D4</text>
+                            <text class="cls-33" id="point-33" transform="translate(66.22 216.83)">D5</text>
+                            <text class="cls-43" id="point-34" transform="translate(70.26 198.39)">D6</text>
+                            <text class="cls-33" id="point-35" transform="translate(81.28 180.83)">D7</text>
+                            <text class="cls-33" id="point-36" transform="translate(89.13 161.62)">D8</text>
+                            <text class="cls-33" id="point-37" transform="translate(96.7 143.39)">D9</text>
+                            <text class="cls-33" id="point-38" transform="translate(159.66 77.79)">E1</text>
+                            <text class="cls-33" id="point-39" transform="translate(177.74 70.14)">E2</text>
+                            <text class="cls-33" id="point-40" transform="translate(196.73 62.48)">E3</text>
+                            <text class="cls-43" id="point-41" transform="translate(211.32 54.83)">E4</text>
+                            <text class="cls-33" id="point-42" transform="translate(232.77 47.17)">E5</text>
+                            <text class="cls-33" id="point-43" transform="translate(251.53 39.52)">E6</text>
+                            <text class="cls-33" id="point-44" transform="translate(269.81 31.87)">E7</text>
+                            <text class="cls-33" id="point-45" transform="translate(385.66 31.87)">E8</text>
+                            <text class="cls-33" id="point-46" transform="translate(404.94 39.52)">E9</text>
+                            <text class="cls-33" id="point-47" transform="translate(422.7 47.17)">F1</text>
+                            <text class="cls-43" id="point-48" transform="translate(443.15 54.83)">F2</text>
+                            <text class="cls-33" id="point-49" transform="translate(459.73 62.48)">F3</text>
+                            <text class="cls-33" id="point-51" transform="translate(478.72 70.14)">F4</text>
+                            <text class="cls-33" id="point-52" transform="translate(496.81 77.79)">F5</text>
+                            <text class="cls-33" id="point-53" transform="translate(558.77 143.39)">F6</text>
+                            <text class="cls-33" id="point-54" transform="translate(566.4 161.62)">F7</text>
+                            <text class="cls-33" id="point-55" transform="translate(574.09 180.83)">F8</text>
+                            <text class="cls-43" id="point-56" transform="translate(583.4 198.39)">F9</text>
+                            <text class="cls-33" id="point-57" transform="translate(588.82 216.83)">G1</text>
+                            <text class="cls-33" id="point-58" transform="translate(597.53 236.19)">G2</text>
+                            <text class="cls-33" id="point-59" transform="translate(604.7 254.94)">G3</text>
+                            <text class="cls-33" id="point-60" transform="translate(604.7 344.84)">G4</text>
+                            <text class="cls-33" id="point-61" transform="translate(597.13 363.64)">G5</text>
+                            <text class="cls-33" id="point-62" transform="translate(589.28 382.27)">G6</text>
+                            <text class="cls-43" id="point-63" transform="translate(583.26 401.19)">G7</text>
+                            <text class="cls-33" id="point-64" transform="translate(574.09 418.92)">G8</text>
+                            <text class="cls-33" id="point-65" transform="translate(566.5 437.58)">G9</text>
+                            <text class="cls-33" id="point-66" transform="translate(558.77 455.95)">R1</text>
+                            <text class="cls-33" id="point-67" transform="translate(496.81 522.12)">R2</text>
+                            <text class="cls-33" id="point-68" transform="translate(478.03 529.89)">R3</text>
+                            <text class="cls-33" id="point-69" transform="translate(459.6 537.53)">R4</text>
+                            <text class="cls-43" id="point-70" transform="translate(442.39 546.37)">R5</text>
+                            <text class="cls-33" id="point-71" transform="translate(422.7 552.81)">R6</text>
+                            <text class="cls-33" id="point-72" transform="translate(404.14 560.35)">R7</text>
+                            <text class="cls-33" id="point-73" transform="translate(385.66 568.11)">R8</text>
+                            <text class="cls-33" id="point-74" transform="translate(270.81 568.11)">R9</text>
+                            <text class="cls-33" id="point-75" transform="translate(252.33 560.35)">T1</text>
+                            <text class="cls-33" id="point-76" transform="translate(233.77 552.81)">T2</text>
+                            <text class="cls-43" id="point-77" transform="translate(212.08 546.37)">T3</text>
+                            <text class="cls-33" id="point-78" transform="translate(196.69 537.53)">T4</text>
+                            <text class="cls-33" id="point-79" transform="translate(178.26 529.89)">T5</text>
+                            <text class="cls-33" id="point-80" transform="translate(161.48 522.12)">T6</text>
+                            <text class="cls-33" id="point-81" transform="translate(97.7 455.95)">T7</text>
+                            <text class="cls-33" id="point-82" transform="translate(89.98 437.58)">T8</text>
+                            <text class="cls-33" id="point-83" transform="translate(82.39 418.92)">T9</text>
+                            <text class="cls-43" id="point-84" transform="translate(71.22 401.19)">Q1</text>
+                            <text class="cls-33" id="point-85" transform="translate(67.2 382.27)">Q2</text>
+                            <text class="cls-33" id="point-86" transform="translate(59.34 363.64)">Q3</text>
+                            <text class="cls-33" id="point-87" transform="translate(51.77 344.83)">Q4</text>
+                          </g>
+                          <g id="По_годам" data-name="By y.o." *ngif="extendedMode">
+                            <text class="cls-61" transform="translate(71.7 252.94)">1-2</text>
+                            <text class="cls-61" transform="translate(79.14 234.61)">2-3</text>
+                            <text class="cls-61" transform="translate(86.39 216.23)">3-4</text>
+                            <text class="cls-61" transform="translate(102.39 179.23)">6-7</text>
+                            <text class="cls-61" transform="translate(109.39 160.23)">7-8</text>
+                            <text class="cls-61" transform="translate(117.39 143.23)">8-9</text>
+                            <text class="cls-61" transform="translate(176.55 85.51)">
+                              <tspan class="cls-62">1</tspan>
+                              <tspan x="2.89" y="0">1-12</tspan>
+                            </text>
+                            <text class="cls-61" transform="translate(195.09 77.79)">12-13</text>
+                            <text class="cls-61" transform="translate(214.38 70.22)">13-14</text>
+                            <text class="cls-61" transform="translate(250.51 54.83)">16-17</text>
+                            <text class="cls-61" transform="translate(268.88 47.18)">17-18</text>
+                            <text class="cls-61" transform="translate(287.83 39.52)">18-19</text>
+                            <text class="cls-61" transform="translate(364 39.52)">21-22</text>
+                            <text class="cls-61" transform="translate(382.75 47.17)">22-23</text>
+                            <text class="cls-61" transform="translate(401.13 54.83)">23-24</text>
+                            <text class="cls-61" transform="translate(438.01 70.14)">26-27</text>
+                            <text class="cls-61" transform="translate(457.01 77.79)">27-28</text>
+                            <text class="cls-61" transform="translate(475.26 85.51)">28-29</text>
+                            <text class="cls-61" transform="translate(533.75 143.23)">31-32</text>
+                            <text class="cls-61" transform="translate(541.12 160.23)">32-33</text>
+                            <text class="cls-61" transform="translate(549.78 179.23)">33-34</text>
+                            <text class="cls-61" transform="translate(564.77 216.23)">36-37</text>
+                            <text class="cls-61" transform="translate(572.77 234.61)">37-38</text>
+                            <text class="cls-61" transform="translate(579.07 252.94)">38-39</text>
+                            <text class="cls-61" transform="translate(532.7 454.08)">48-49</text>
+                            <text class="cls-61" transform="translate(540.32 435.69)">47-48</text>
+                            <text class="cls-61" transform="translate(547.66 417.27)">46-47</text>
+                            <text class="cls-61" transform="translate(563.3 380.28)">43-44</text>
+                            <text class="cls-61" transform="translate(570.89 361.52)">42-43</text>
+                            <text class="cls-61" transform="translate(578.49 343.82)">41-42</text>
+                            <text class="cls-61" transform="translate(364.55 558.01)">
+                              <tspan class="cls-62">5</tspan>
+                              <tspan x="2.89" y="0">8-59</tspan>
+                            </text>
+                            <text class="cls-61" transform="translate(383.09 550.29)">57-58</text>
+                            <text class="cls-61" transform="translate(402.38 542.68)">56-57</text>
+                            <text class="cls-61" transform="translate(438.51 527.33)">53-54</text>
+                            <text class="cls-61" transform="translate(456.88 519.68)">52-53</text>
+                            <text class="cls-61" transform="translate(475.83 512.02)">51-52</text>
+                            <text class="cls-61" transform="translate(176 512.02)">68-69</text>
+                            <text class="cls-61" transform="translate(194.75 519.67)">67-68</text>
+                            <text class="cls-61" transform="translate(213.13 527.33)">66-67</text>
+                            <text class="cls-61" transform="translate(250.01 542.68)">63-64</text>
+                            <text class="cls-61" transform="translate(269.01 550.29)">62-63</text>
+                            <text class="cls-61" transform="translate(287.26 558.01)">61-62</text>
+                            <text class="cls-61" transform="translate(73.75 343.82)">78-79</text>
+                            <text class="cls-61" transform="translate(81.12 361.52)">77-78</text>
+                            <text class="cls-61" transform="translate(88.78 380.28)">76-77</text>
+                            <text class="cls-61" transform="translate(103.77 417.27)">73-74</text>
+                            <text class="cls-61" transform="translate(111.77 435.69)">72-73</text>
+                            <text class="cls-61" transform="translate(119.07 454.08)">71-72</text>
+                            <text class="cls-28" transform="translate(97.69 400.12)">
+                              75
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(538.76 400.12)">
+                              45
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(235.6 531.38)">
+                              65
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(400.8 531.38)">
+                              55
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(235.22 69.42)">
+                              15
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(401.8 69.22)">
+                              25
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(97.49 198.76)">
+                              5
+                              <tspan class="cls-29" x="8.34" y="0">y.o.</tspan>
+                            </text>
+                            <text class="cls-28" transform="translate(539.55 198.76)">
+                              35
+                              <tspan class="cls-29" x="13.9" y="0">y.o.</tspan>
+                            </text>
+                            <g>
+                              <line class="cls-63" x1="155.1" y1="505.93" x2="310.36" y2="570.25"></line>
+                              <g>
+                                <circle class="cls-63" cx="296.97" cy="539.49" r="2.83" transform="translate(-362.44 696.23) rotate(-76.05)"></circle>
+                                <circle class="cls-64" cx="296.97" cy="539.49" r="2.83" transform="translate(-362.44 696.23) rotate(-76.05)"></circle>
+                                <circle class="cls-65" cx="296.97" cy="539.49" r="2.83" transform="translate(-362.44 696.23) rotate(-76.05)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="241.54" cy="516.52" r="1.42" transform="translate(-382.23 625) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="260.02" cy="524.18" r="1.42" transform="translate(-375.63 648.75) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="278.49" cy="531.83" r="1.42" transform="translate(-369.04 672.49) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="352.4" cy="562.45" r="1.42" transform="translate(-342.66 767.45) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="333.93" cy="554.79" r="1.42" transform="translate(-349.25 743.71) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="315.45" cy="547.14" r="1.42" transform="translate(-355.85 719.97) rotate(-76.05)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="124.22" y1="475.12" x2="59.91" y2="319.85"></line>
+                              <g>
+                                <circle class="cls-63" cx="156.31" cy="398.88" r="2.83" transform="translate(-247.58 136.37) rotate(-31.05)"></circle>
+                                <circle class="cls-64" cx="156.31" cy="398.88" r="2.83" transform="translate(-247.58 136.37) rotate(-31.05)"></circle>
+                                <circle class="cls-65" cx="156.31" cy="398.88" r="2.83" transform="translate(-247.58 136.37) rotate(-31.05)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="179.27" cy="454.32" r="1.42" transform="translate(-272.88 156.15) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="171.61" cy="435.84" r="1.42" transform="translate(-264.44 149.56) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="163.96" cy="417.36" r="1.42" transform="translate(-256.01 142.96) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="133.35" cy="343.45" r="1.42" transform="translate(-222.27 116.58) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="141" cy="361.93" r="1.42" transform="translate(-230.71 123.18) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="148.65" cy="380.41" r="1.42" transform="translate(-239.14 129.77) rotate(-31.05)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="123.82" y1="118.09" x2="59.51" y2="273.36"></line>
+                              <g>
+                                <circle class="cls-63" cx="155.9" cy="197.12" r="2.83" transform="translate(-137.24 299.51) rotate(-76.05)"></circle>
+                                <circle class="cls-64" cx="155.9" cy="197.12" r="2.83" transform="translate(-137.24 299.51) rotate(-76.05)"></circle>
+                                <circle class="cls-65" cx="155.9" cy="197.12" r="2.83" transform="translate(-137.24 299.51) rotate(-76.05)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="178.87" cy="141.69" r="1.42" transform="translate(-66.01 279.72) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="171.21" cy="160.17" r="1.42" transform="translate(-89.75 286.32) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="163.56" cy="178.65" r="1.42" transform="translate(-113.49 292.91) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="132.94" cy="252.56" r="1.42" transform="translate(-208.46 319.29) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="140.6" cy="234.08" r="1.42" transform="translate(-184.72 312.69) rotate(-76.05)"></circle>
+                              <circle class="cls-63" cx="148.25" cy="215.6" r="1.42" transform="translate(-160.98 306.1) rotate(-76.05)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="310.03" y1="22.91" x2="154.77" y2="87.22"></line>
+                              <g>
+                                <circle class="cls-63" cx="296.64" cy="56.46" r="2.83" transform="translate(-50.86 159.69) rotate(-31.05)"></circle>
+                                <circle class="cls-64" cx="296.64" cy="56.46" r="2.83" transform="translate(-50.86 159.69) rotate(-31.05)"></circle>
+                                <circle class="cls-65" cx="296.64" cy="56.46" r="2.83" transform="translate(-50.86 159.69) rotate(-31.05)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="352.08" cy="33.5" r="1.42" transform="translate(-31.08 184.99) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="333.6" cy="41.16" r="1.42" transform="translate(-37.67 176.56) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="315.12" cy="48.81" r="1.42" transform="translate(-44.27 168.12) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="241.21" cy="79.42" r="1.42" transform="translate(-70.65 134.39) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="259.69" cy="71.77" r="1.42" transform="translate(-64.05 142.82) rotate(-31.05)"></circle>
+                              <circle class="cls-63" cx="278.17" cy="64.12" r="1.42" transform="translate(-57.46 151.25) rotate(-31.05)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="512.31" y1="505.69" x2="357.04" y2="570.01"></line>
+                              <g>
+                                <circle class="cls-63" cx="498.92" cy="539.25" r="2.83" transform="translate(-179.54 134.8) rotate(-13.95)"></circle>
+                                <circle class="cls-64" cx="498.92" cy="539.25" r="2.83" transform="translate(-179.54 134.8) rotate(-13.95)"></circle>
+                                <circle class="cls-65" cx="498.92" cy="539.25" r="2.83" transform="translate(-179.54 134.8) rotate(-13.95)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="554.35" cy="516.29" r="1.42" transform="translate(-172.37 147.49) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="535.87" cy="523.94" r="1.42" transform="translate(-174.76 143.26) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="517.4" cy="531.59" r="1.42" transform="translate(-177.15 139.03) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="443.49" cy="562.21" r="1.42" transform="translate(-186.71 122.12) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="461.96" cy="554.55" r="1.42" transform="translate(-184.32 126.34) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="480.44" cy="546.9" r="1.42" transform="translate(-181.93 130.57) rotate(-13.95)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="543.18" y1="474.88" x2="607.5" y2="319.61"></line>
+                              <g>
+                                <circle class="cls-63" cx="639.58" cy="398.64" r="2.83" transform="translate(-96.06 739.59) rotate(-58.95)"></circle>
+                                <circle class="cls-64" cx="639.58" cy="398.64" r="2.83" transform="translate(-96.06 739.59) rotate(-58.95)"></circle>
+                                <circle class="cls-65" cx="639.58" cy="398.64" r="2.83" transform="translate(-96.06 739.59) rotate(-58.95)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="616.62" cy="454.08" r="1.42" transform="translate(-154.67 746.77) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="624.28" cy="435.6" r="1.42" transform="translate(-135.13 744.38) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="631.93" cy="417.12" r="1.42" transform="translate(-115.6 741.99) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="662.54" cy="343.21" r="1.42" transform="translate(-37.45 732.42) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="654.89" cy="361.69" r="1.42" transform="translate(-56.99 734.81) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="647.24" cy="380.17" r="1.42" transform="translate(-76.53 737.2) rotate(-58.95)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="543.59" y1="117.86" x2="607.9" y2="273.12"></line>
+                              <g>
+                                <circle class="cls-63" cx="639.99" cy="196.89" r="2.83" transform="translate(-92.83 158.71) rotate(-13.95)"></circle>
+                                <circle class="cls-64" cx="639.99" cy="196.89" r="2.83" transform="translate(-92.83 158.71) rotate(-13.95)"></circle>
+                                <circle class="cls-65" cx="639.99" cy="196.89" r="2.83" transform="translate(-92.83 158.71) rotate(-13.95)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="617.02" cy="141.45" r="1.42" transform="translate(-80.14 151.54) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="624.68" cy="159.93" r="1.42" transform="translate(-84.37 153.93) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="632.33" cy="178.41" r="1.42" transform="translate(-88.6 156.32) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="662.95" cy="252.32" r="1.42" transform="translate(-105.52 165.89) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="655.29" cy="233.84" r="1.42" transform="translate(-101.29 163.5) rotate(-13.95)"></circle>
+                              <circle class="cls-63" cx="647.64" cy="215.36" r="1.42" transform="translate(-97.06 161.11) rotate(-13.95)"></circle>
+                            </g>
+                            <g>
+                              <line class="cls-63" x1="357.37" y1="22.67" x2="512.64" y2="86.99"></line>
+                              <g>
+                                <circle class="cls-63" cx="499.25" cy="56.23" r="2.83" transform="translate(129.34 453.55) rotate(-58.95)"></circle>
+                                <circle class="cls-64" cx="499.25" cy="56.23" r="2.83" transform="translate(129.34 453.55) rotate(-58.95)"></circle>
+                                <circle class="cls-65" cx="499.25" cy="56.23" r="2.83" transform="translate(129.34 453.55) rotate(-58.95)"></circle>
+                              </g>
+                              <circle class="cls-63" cx="443.81" cy="33.26" r="1.42" transform="translate(122.17 394.94) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="462.29" cy="40.92" r="1.42" transform="translate(124.56 414.48) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="480.77" cy="48.57" r="1.42" transform="translate(126.95 434.01) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="554.68" cy="79.19" r="1.42" transform="translate(136.52 512.16) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="536.2" cy="71.53" r="1.42" transform="translate(134.13 492.62) rotate(-58.95)"></circle>
+                              <circle class="cls-63" cx="517.72" cy="63.88" r="1.42" transform="translate(131.73 473.09) rotate(-58.95)"></circle>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      <div id="row">
+                        <div class="d-none" id="table2">
+                          <p style="margin-bottom:15px;margin-top:10px"><strong>Health Map</strong></p>
+                          <table class="table health-map-table">
+                            <tbody>
+                              <tr>
+                                <th>BODY</th>
+                                <th>ENERGY</th>
+                                <th>EMOTIONS</th>
+                                <th>CHAKRA</th>
+                              </tr>
+                              <tr class="child_2">
+                                <td id="purp-1">3</td>
+                                <td id="purp-2">3</td>
+                                <td id="purp-3">6</td>
+                                <td class="td_chakra">7. Sahastrara</td>
+                              </tr>
+                              <tr class="child_3">
+                                <td id="blue-1">13</td>
+                                <td id="blue-2">13</td>
+                                <td id="blue-3">8</td>
+                                <td class="td_chakra">6. Ajna</td>
+                              </tr>
+                              <tr class="child_4">
+                                <td id="cyan-1">10</td>
+                                <td id="cyan-2">10</td>
+                                <td id="cyan-3">20</td>
+                                <td class="td_chakra">5. Vishuddha</td>
+                              </tr>
+                              <tr class="child_5">
+                                <td id="green-1">17</td>
+                                <td id="green-2">17</td>
+                                <td id="green-3">7</td>
+                                <td class="td_chakra">4. Anahata</td>
+                              </tr>
+                              <tr class="child_6">
+                                <td id="yellow-1">7</td>
+                                <td id="yellow-2">7</td>
+                                <td id="yellow-3">14</td>
+                                <td class="td_chakra">3. Manipura</td>
+                              </tr>
+                              <tr class="child_7">
+                                <td id="orange-1">9</td>
+                                <td id="orange-2">15</td>
+                                <td id="orange-3">6</td>
+                                <td class="td_chakra">2. Svadhishthana</td>
+                              </tr>
+                              <tr class="child_8">
+                                <td id="red-1">20</td>
+                                <td id="red-2">8</td>
+                                <td id="red-3">10</td>
+                                <td class="td_chakra">1. Muladhara</td>
+                              </tr>
+                              <tr class="child_9">
+                                <td id="total-1">16</td>
+                                <td id="total-2">10</td>
+                                <td id="total-3">8</td>
+                                <td class="td_chakra">Summary</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div id="table1">
+                          <table id="prednazn">
+                            <tbody>
+                              <tr valign="top">
+                                <td colspan="4">
+                                  <h3 class="purpose-title">Personal purpose:</h3>
+                                </td>
+                                <td width="10%"></td>
+                                <td colspan="4">
+                                  <h3 class="purpose-title">Social purpose:</h3>
+                                </td>
+                              </tr>
+                              <tr style="height:5px">
+                                <td></td>
+                              </tr>
+                              <tr style="height:5px">
+                                <td></td>
+                              </tr>
+                              <tr style="font-size:140%;position:relative">
+                                <td>Heaven:&nbsp;&nbsp;</td>
+                                <td>
+                                  <span id="nebo1">11</span>
+                                </td>
+                                <td rowspan="2">
+                                  <img width="20" height="75" src="data:image/png;base64,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">
+                                </td>
+                                <td rowspan="2">
+                                  <span id="for_self1">16</span>
+                                </td>
+                                <td></td>
+                                <td>М:&nbsp;&nbsp;</td>
+                                <td>
+                                  <span id="male1">16</span>
+                                </td>
+                                <td rowspan="2">
+                                  <img width="20" height="75" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAC+CAYAAAB3TVwSAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAJgklEQVR4nO2dbYxUVxnHf2cXFigIFpq5i5SyzFCqUFCj9QO19SWxxhlA2iamSWPsBxtTTUtt4gcTo7FVE9PEJkpiFNNUE03Q2mrZuaISbKzRNIWUUpHXuZZSl53bAhYWlwV2jh9maVjYvc+Ze885c5fM/+t55nnub8459577nJcLHXXUUUcdtUFKMoij8EPAvcAaYCkwCzgPvA0MAAeBXcCON4eH9q1c+Tl3V5ugSUHiKOwFfgKsb8HfPmCz1npzUKoMZb24VjQhSByFJeAvwOKUft8Evt5g9Mne4jqd9uJa0RUgcVSdCWonsIImzFbgZeA40AMsBFYDdwC3A10J/rdqzeeDUvlt2xd+uSYACb9Gszl9uVAsv5r04zgKbwK+D3w2wWyPhk8FxXKc6UoFjfs33zjwW4CC1voTEgRAoVg+0Dj91gZgI9CYxGy1gm31Wjgn89UmaFyN1GvVuUAjTUeNo/Bh4IkEky0jg0P3LF7j5q4m3n5NdWRPP7PmdP2O5GZ2b6FY/pWtmJfKGghAXAuXoNgPzJzEpI7WNxZKldM240LyHadlFUrlI8DPE0wClPqqzZgXZRVkTD8Wyh+qR+E1toNaBykUy68AexNMFii4x3ZcFzUCzYdoku6zHdAVyHah/NY4ChfZDOgERKNfBEaFuGttxnQCEhQrQzRHwkm6w2ZMV00LYI9QfvuxQ1VrzzGXIFKNXNfdrW60FcwlyGEDmw/bCuYS5N8GNqttBXMGojWvG5itsBXPIchoHbggmN1kK54zkN5l6xpAXTDrGzy81co1uOwjIIP0dHV1L7QRyDXIWwY2aTM145QHkClRIycMbAIbgVyDnDSwuc5GINcg/zWwWWAjUB5A3m0jkGuQUwY282wEcg1ikvOdayOQaxCT/JWVVGoempaV1JBjEH11gGht1LRm2YjlGGR0CJBmrCbLE7ckpyC9y9aPAmcEsxk2Yrnu7CDfuXpsBPEBInX46Uf3PZs5LZQHEKZPn565VnyAiE93pdTVAQJMzxokHyAqe4fPB4iFO5cPEPEtUaGmRNMyebmaEjVikoDI/HTvgLSg4wY2mQeOHRBTaa1Nso2Z30mcg5wdPnsKOCeYZX5LdA6y5Oa7Nc2lgUmanTWOjz4C8vTCu7IGyAtI5tyWL5BBoTxzttEXyDGhPHP+1xfIgFCeOSPvC+Q/QnnmOZK8gGSetfIEoo8KBr1H9/46UwQvII0Lug6MJJhc0zNz9rVZYngB6V2+VgOJtaKUuiFLDF99BOA1obwvi/M8gSzL4twnSCSUL8/i3CdITSjPtOQpTyCr6tHW1MlsbyBa60OCyTxFdymtf28gQalyCnkUfEta/z6bFsABofzWtI59g+wXyj+e1rFvkH8J5SvqUZhq/VbeQJSCT6dx7BVEa/1PA7M70/i2usfKRHEU1oBigskImkWFUtkkQ/mOfDctgG1C+QwUX2jVaTtAfmNg82C91t/S5I93EK0bf0UeQPYp1XVfK369gwSltQ3knXEAj9ZrVeN8VzuaFlrrnyJPyfUqpR439dkWkLFx1w8MTO+Po9Boc29bQAC01k8gJ+4AnoyjUBxMtg1kbIf2Iwams4E/xFH4wSSjtoEAnDlS3wI8Y2C6AHg+jsJJhy/en+yXq16rzldKvUTy0/6iRoHvaq2/HZQq4w4CaGuNAASlygmggjyHAtANfBO4IpnXdhCAQrG8H/goZjvlJlQuQMb0GTIk6abZu470iqPwAeCHhubDNE/KGae210gchbdhDrEPuGXsgTpObb1rxVE4F3gVMElgb9fou4PilRDQ/qb1HcwgtmmtNwSlyqRTE22rkTgKVwK7kf/MXRr9saBYSVwI3c4+8hgyxAngLgkC2gQSR+EqYIOB6UOFYtlkz2/bauRh5Ga9Y+T86C9NHfrPotSq81BqgOQVQRr4SKFY3mnq13+NKHUX8rKmP7UCAe1pWiZ9w/QB+Y68ggzW+ruRE9UDWus/turbK0iX6lqOvKTp6aBUSTpTZWLf6S4ptVYa2EjH9Uwo3yDShOew1vpvaRz7BnmfUP73oFQ5m8axb5D3CuUvpHXsDeTY/ucUIJ1M84+0/r2BdPdMW4SwLFZr3dJD8FL5bFrSWpPXxzIqqZQnEJNpuUnlE0RKwEmnPyXKJ8hSoVxa4pEonyB9Qrk0i5WoPIG8lsW5F5B6rToDYUms1vqNLDG8gCilrif5bfRkUKoMZ4nhq2ldL5RLy59E5QUk8+nMvkDeI5Sb7MNKVF5AUg9NLsoXSK9QbrINNlF5Acl8HLsvEGlbReajpX2BFITyzJ8vcA4yeLh/GhPMwl4mMdsuyTlIl1ILDOL8L3OcrA5EKWWyfyrT8AT89BGTHW1Ju32M5ANkvoFNqlzWpcoLyJSoEZNNYNI2cVEdkBZksA9XTwkQcaWoniI1Ii951VcukmlV+QCZIjUinh7Q0I2rAkSfHRmeEk1LAjm31MJn1XyASCdsZG5W4Bhk8HD/DOQDjjKPs8AxiFLK5LyTqwYk87sIuO8jJge3ZH47hHyAZH5fh3yAWPkAZB5ATA43FuUaxGScZeWjj65BTM4EMjntX1QeQFraATqZXIOYJB6k09CMlAeQzNNu4B7EJMtosvNNlGsQKQuP1uIBSUZyDSLNi5xSZ8/ku7PXa/0zkXNatYKlb1U7A1F0SYsEQD7MwljumpZiiYFV0ic5W5LLPmKyQfJlW8FcgkinM2mt9Uu2grkEkVZdHwpKFStPdXAL8gGhfIfNYE5A6rXqDchfDJNO42hJTkCUUrcJJkNa6z/bjOmqaUnH5vw+KFWsJB0uyjpIXKv2IH8z92e249qvEaXWkzw02d3Q+nnbYa2CDOzcCiB9tvyx3lLFZljAMsi0+d3rgDUJJi80GjxrM+ZFjQM5dvC51PsS41r1WmBTgskw8KXeZWXpK0qpNA6kq7t7ThyF0oPsCtVr1Vko9TTJO6E3ForlTOvfkzQOJChVTgOPxFH4flMHcRQuVkptBz6ZYPZ4oVjenPIajTTR7uWngBfjKNykNT8KSuUjE/0wjqp9oO4HHiR5Mud7F0ZHv5H5SgVN2CfiKNwEfIXmntlXaA63j9OctFkIrEL+uO9J4IFCsbzF2tUmaML95A2tN3YpNQP4Is3BXyv95hzwFJpvFUplK6keEyXepeIovBN4FLhZ8NMAdgHPaK1/EZQqVlI8rUi83cZ7qzBLraZ5qmUfzZ3P52kmnweAgxp2B8WylWR0Rx111FGi/g/s5kpTWqxxUAAAAABJRU5ErkJggg==">
+                                </td>
+                                <td rowspan="2">
+                                  <span id="socium1">5</span>
+                                </td>
+                              </tr>
+                              <tr style="font-size:140%">
+                                <td>Earth: </td>
+                                <td><span id="zemlia1">5</span></td>
+                                <td></td>
+                                <td>F:&nbsp;&nbsp;</td>
+                                <td><span id="female1">16</span></td>
+                              </tr>
+                              <tr>
+                                <td style="height:35px"></td>
+                              </tr>
+                              <tr>
+                                <td colspan="4">
+                                  <h3 class="purpose-title">Spiritual purpose:</h3>
+                                </td>
+                                <td></td>
+                                <td class="visually-hidden" colspan="4">
+                                  <h3 class="purpose-title">Planetary purpose:</h3>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="9" style="height:10px"></td>
+                              </tr>
+                              <tr style="font-size:160%">
+                                <td colspan="4" style="text-align:center">
+                                  <span id="duhovnoe1">21</span>
+                                </td>
+                                <td></td>
+                                <td class="visually-hidden" colspan="4" style="text-align:center">
+                                  <span id="planetarnoe1">8</span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div id="matrixL">
+                          <b>Date of birth: </b><i id="date">&nbsp;</i><br>
+                          <b>Age: </b><i id="age">&nbsp;</i><br>
+                          <b>Day of the week: </b><i id="weekday">&nbsp;</i><br>
+                          <b>Power code of the family: </b><i id="power_root">&nbsp;</i><br>
+                          <b class="visually-hidden">Ternary code of the male generation: </b><i class="visually-hidden" id="m3">&nbsp;</i><br>
+                          <b class="visually-hidden">Ternary code of the female generation: </b><i class="visually-hidden" id="w3">&nbsp;</i><br>
+                          <b class="visually-hidden">Code of the inner power: </b><i class="visually-hidden" id="power_inner">&nbsp;</i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>   
+                </div>
+
+              </div>
+          </div>
+
+
+      </div>
+      <!-- // container -->
+  </section>
+  <!-- // section -->
+
+  <section class="section">
+    <div class="container">
+        <div class="row align-items-center justify-content-between text-center">
+            <div class="col-6 col-md-3">
+              <div class="product p-4">
+                <a href="https://buymeacoffee.com/marina.teke/e/258649" class="product__link">
+                  <span class="product__img-wrap">
+                    <img src="images/1-thumb.jpg" class="img-fluid product__img product__img--border" alt="Full Reading">
+                    <span class="product__price">$19</span>
+                  </span>
+                  <span class="text-white product__text mt-3">Full Destiny Matrix Reading</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="product p-4">
+                <a href="https://buymeacoffee.com/marina.teke/e/321220" class="product__link">
+                  <span class="product__img-wrap">
+                    <img src="images/2-thumb.jpg" class="img-fluid product__img" alt="Full Reading">
+                    <span class="product__price">$9</span>
+                  </span>
+                  <span class="text-white product__text mt-3">Love Reading</span>
+                </a>
+              </div>
+            </div>            
+            <div class="col-6 col-md-3">
+              <div class="product p-4">
+                <a href="https://buymeacoffee.com/marina.teke/e/321223" class="product__link">
+                  <span class="product__img-wrap">
+                    <img src="images/3-thumb.jpg" class="img-fluid product__img" alt="Full Reading">
+                    <span class="product__price">$9</span>
+                  </span>
+                  <span class="text-white product__text mt-3">Money Reading</span>
+                </a>
+              </div>
+            </div>            
+            <div class="col-6 col-md-3">
+              <div class="product p-4">
+                <a href="https://buymeacoffee.com/marina.teke/e/321224" class="product__link">
+                  <span class="product__img-wrap">
+                    <img src="images/4-thumb.jpg" class="img-fluid product__img product__img--border" alt="Full Reading">
+                    <span class="product__price">$9</span>
+                  </span>
+                  <span class="text-white product__text mt-3">10 Years Guide</span>
+                </a>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- // container -->
+</section>
+<!-- // section -->
+
+    <section class="section section-separated">
+      <div class="container">
+        <div id="energy-description"></div>
+    
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+            <img src="images/promo-pict.jpg" alt="" class="img-fluid w-75">
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="mb-5">
+              <p class="h3 mb-3">The full report contains:</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-atom small"></i></span>Core Energy  <small>(how do you feel yourself)</small></p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-regular fa-circle-user small"></i></span>Main Personal Qualities <small>(how others see you)</small></p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-regular fa-star small"></i></span>Your Talents</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-brain small"></i></span>Superpowers of Your Mind</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-palette small"></i></span>Best Hobbies for You</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-arrow-up small"></i></span>Your Point of Growth</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-regular fa-file-lines small"></i></span>Main Program from the Past Life</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-regular fa-heart small"></i></span>Love and Relationships <small>(description of relationships, perfect partner, possible problems)</small></p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-sack-dollar small"></i></span>Job and Finances <small>(best activities for you, what blocks and what improves the cash flow)</small></p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-gift small"></i></span>Gifts from your mother’s and father’s family lines</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-bullseye small"></i></span>Your Personal Purpose</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-bullseye small"></i></span>Your Social Purpose</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-bullseye small"></i></span>Your Spiritual Purpose</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-solid fa-calendar-days small"></i></span>Your Main Energies of the Year</p>
+              <p class="h6 mb-3"><span class="small me-2"><i class="fa-regular fa-file-lines small"></i></span>Affirmations to Work with Energies</p>
+            </div>
+            
+            <a href="https://buymeacoffee.com/marina.teke/e/258649?click-buy" target="_blank" class="btn btn-primary" onclick="ga('send', 'event', 'button', 'click', 'click_buy', 1);">Get Full Report <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="h3 mb-5"><span class="title-border">What People Say</span></h2>
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-6">
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>Wow wow wow... was everything It was confirmation for my overall being and life purpose. Thank You ✨️ <br><i class="fa-regular fa-circle-user me-1"></i><span class="fst-italic">Tenesha</span></p>
+                </div>
+              </div>
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>Very informative. I loved it. Very good customer service and I got it so fast. <br><i class="fa-regular fa-circle-user me-1"></i><span class="fst-italic">Anna</span></p>
+                </div>
+              </div>
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>I am absolutely amazed!!!!! Literally describes me and what my trials and success's have been. Spot on with all of it. Hands down highly recommend. I am completely shocked at the accuracy. Thank you for the affirmations as well I have new ones to add into the mix everyday!!!! Thank you thank you <br><i class="fa-regular fa-circle-user me-1 "></i><span class="fst-italic">Patricia</span></p>
+                </div>
+              </div>
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>Thank you so much for the report it was extremely accurate and offered some great advice on things I should definitely be working on, thank you so much for the encouragement also, I will remember this report forever. Your work is amazing!<br><i class="fa-regular fa-circle-user me-1"></i><span class="fst-italic">Naseer</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>Oh. My. God. While reading the whole entirety of the pages I did not find ONE sentence that I did not resonate with. She literally described me perfectly. Thanks to this reading I now know which aspects of myself I should improve and which negative ones to let go of. I would recommend 10/10. Thank you so much<br><i class="fa-regular fa-circle-user me-1 "></i><span class="fst-italic">Nur</span></p>
+                </div>
+              </div>
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>I found the Report a profound affirmation, a vital guide and support. And give heartfelt thanks to Marina Teke.<br><i class="fa-regular fa-circle-user me-1 "></i><span class="fst-italic">Patricia</span></p>
+                </div>
+              </div>
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>The item was amazing and in depth and interesting , never regret<br><i class="fa-regular fa-circle-user me-1 "></i><span class="fst-italic">Charlotte</span></p>
+                </div>
+              </div>
+              <div class="text-box text-box--light mb-3">
+                <div class="text-box__content">
+                  <p>This document acted as confirmation for aspects of Self I discovered on my own. It's cool knowing how aligned with yourself you are. The artwork is pretty too. Thanks.<br><i class="fa-regular fa-circle-user me-1 "></i><span class="fst-italic">Veronica</span></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <p class="text-center">And there are many more! <i class="fa-regular fa-heart"></i></p>
+      </div>
+      <!-- // container -->
+  </section>
+  <!-- // section -->
+
+  <section class="section  section-separated">
+    <div class="container">
+      <h2 class="h3 mb-5"><span class="title-border">What is Soul Matrix?</span></h2>
+
+        <div class="row text-center justify-content-center">
+            <div class="col-12 col-md-6">
+              <p class="mt-3">The Soul Matrix (Matrix of Destiny, or Destiny Matrix) is a self-knowledge method that allows one to find a person's talents, character traits, and purpose in this life. This method was invented in 2006 by Nataliya Ladini in Russia. Based on the date of birth, numbers, or energies, are calculated and placed on the scheme. Each resulting number has its own designation. 22 numbers/energies/archetypes correspond to each major Tarot arcana. It is believed that souls on Earth can have these types of energies and not more. Most people find this method very accurate, especially when it comes to finding your soul's purpose in this life.</p>
+            
+            </div>
+        </div>
+
+    </div>
+    <!-- // container -->
+</section>
+<!-- // section -->
+
+<section class="section">
+  <div class="container">
+    <div class="text-center">
+      <p class="h5 mb-4">Buy for only <span class="highlight">$19</span> today!</p>
+      <a href="https://buymeacoffee.com/marina.teke/e/258649?click-buy" class="btn btn-lg btn-primary" onclick="ga('send', 'event', 'button', 'click', 'click_buy', 2);">Get Your Personal Report <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+    </div>
+  </div>
+  <!-- // container -->
+</section>
+
+    <section class="section section-separated">
+      <div class="container">
+        <h2 class="h3 mb-5"><span class="title-border">Main Features</span></h2>
+
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-4 mb-3">
+                  <div class="feature-item">
+                      <i class="fa-regular fa-clock highlight fs-2 mb-3"></i>
+                      <h4 class="featured-item-title">Ready within 48 hours</h4>
+                      <p>Your personal report will be ready from 12 to 48 hours after the payment.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                  <div class="feature-item">
+                    <i class="fa-regular fa-hand highlight fs-2 mb-3"></i>
+                      <h4 class="featured-item-title">Hand-made</h4>
+                      <p>I analyze the whole matrix and make additional notes and edits, where it's nessesary.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                  <div class="feature-item">
+                      <i class="fa-regular fa-file-lines highlight fs-2 mb-3"></i>
+                      <h4 class="featured-item-title">Affirmations</h4>
+                      <p>Personal affirmations to work with your energies, turning them into positive ones.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                  <div class="feature-item">
+                      <i class="fa-solid fa-life-ring highlight fs-2 mb-3"></i>
+                      <h4 class="featured-item-title">Support</h4>
+                      <p>Help with any questions about the report within two weeks after the purchase.</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="feature-item">
+                    <i class="fa-regular fa-heart highlight fs-2 mb-3"></i>
+                      <h4 class="featured-item-title">Made with Love</h4>
+                      <p>The report is made as a presentation. The text was carefully prepared to make it helpful and easy to understand.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- // container -->
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="h3 mb-5"><span class="title-border">Frequently Asked Questions</span></h2>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="faq__item mb-4">
+                    <h4>How to read destiny matrix chart?</h4>
+                    <p>Two main things you need to know to read are the meaning of the energies and location. The method is based on 22 energies, the same energies that major Tarot arcana have. Knowing the meaning, you can interpret them by the location in the chart. You can watch my YouTube video where I explain how to calculate a destiny matrix chart, and what each zone means.</p>
+                </div>
+                <div class="faq__item mb-4">
+                    <h4>Can I find what blocks my love and money?</h4>
+                    <p>Yes! In the report, you will find information about your perfect partner, what blocks to find love or why you chose "wrong" partners, description of your relationships, and possible problems. You will also find the best ways for you to earn money, what blocks your money flow, and how to improve it.
+                      </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="faq__item mb-4">
+                    <h4>What is karmic tail?</h4>
+                    <p>The karmic tail in the Matrix of Destiny is a kind of karmic baggage from past lives that it brought into the current incarnation. And here a person is faced with the task of working through the karma of the past for further spiritual growth. Otherwise, it will become an obstacle to success and realization in the current incarnation. It is important to remember, that this is a task that the Soul itself chose.</p>
+                </div>
+                <div class="faq__item mb-4">
+                    <h4>Can I order a soul's purpose reading for my partner, children, parents, or friends?</h4>
+                    <p>Sure! If your main intention is to improve your relationship, it would be extremely beneficial.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- // section -->
+
+<section class="section  section-separated">
+  <div class="container">
+    <div class="text-center">
+      <p class="mb-0">Not a single soul came to our world to suffer. <span class="highlight">Our task is to be happy and learn about love.</span></p>
+    </div>
+  </div>
+</section>
+
+
+    <footer class="section py-lg">
+        <div class="container">
+
+            <div class="text-center">
+                <p class="copyright__text mb-0"><small>Copyright ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>. All rights reserved. Marina Teke</small></p>
+            </div>
+        </div>
+        <!-- // container -->
+    </footer>
+    <!-- // section -->
+
+    <script src="js/show-energies.js"></script>
+    <script src="js/matrix-calculator.js"></script>
+
+</body>
+
+</html>
